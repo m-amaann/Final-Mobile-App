@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+.ChartContainer {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+
+    border-radius: 15px;
+    box-shadow: -1px -1px 10px 4px rgba(236, 236, 236, 0.438);
+    -webkit-box-shadow: -1px -1px 10px 4px rgba(238, 238, 238, 0.567);
+}
+
+.chartTitle {
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+    font-size: 20px;
+}

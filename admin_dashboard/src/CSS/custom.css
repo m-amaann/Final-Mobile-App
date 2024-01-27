@@ -1,0 +1,49 @@
+
+.Custom-Btn {
+    font-size: 13.5px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    box-shadow: none !important;
+    background-color: #0964e5;
+    padding: 5px;
+}
+
+.Custom-Btn:hover {
+    background-color: #0964e5;
+    color: #fff;
+}
+
+
+
+.downloadPdf-button
+{
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center;
+    padding: 10px 15px;
+    background-color: #0570e3;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    grid-gap: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.downloadPdf-button:hover
+{
+    color: #fff;
+    text-decoration: none;
+    background-color: #0964e5;
+}
+
+
+
+
+/* Start Toast Poppup */
+.custom-toast {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+/* End Toast */

@@ -1,0 +1,130 @@
+
+/*  Open Modal  */
+.modal {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    opacity: 1 !important;
+    background: #00000073;
+  }
+  
+.modal .modal-dialog {
+    width: 100%;
+    margin: 0;
+  }
+
+.landscape-design {
+    width: 70%; 
+    max-width: 800px; 
+}
+
+.landscape-modal-body {
+  max-height: 550px; 
+  overflow-y: auto; 
+}
+
+.landscape-modal-body::-webkit-scrollbar {
+  width: 8px; 
+  height: 2px;
+}
+
+.landscape-modal-body::-webkit-scrollbar-thumb {
+  background: #d4d2d2;
+  border-radius: 5px;
+
+}
+
+.landscape-modal-body::-webkit-scrollbar-thumb:hover {
+  background: #095fc1; /* Set the color of the scrollbar thumb on hover */
+}
+
+.landscape-modal-body::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Set the color of the scrollbar track */
+}
+
+.landscape-form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.modal-title
+{
+    font-size: 19px;
+}
+
+.form-control{
+  font-size: 13.5px;
+}
+
+.ColorInput .form-control
+{
+  border: none;
+}
+
+label
+{
+    font-size:13px;
+}
+
+input[type="text"],
+input[type="file"],
+input[type="number"],
+textarea,
+select {
+  font-size: 13.5px;
+}
+
+select option 
+{
+    font-size: 13.5px;
+}
+  
+
+.btn-close
+{
+    font-size: 10px;
+    box-shadow: none;
+}
+
+.Custom-Btn:hover{
+  background-color: #0859cb;
+
+}
+
+
+.Size-Btn
+{
+    font-size: 12px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    box-shadow: none !important;
+    width: 90px;
+    background-color: #4285e3;
+    height: 29;
+    margin-bottom: 7px;
+}
+
+.Size-Btn:hover{
+  background-color: #0f67e3;
+  color: #fff;
+}
+
+.Remove-Btn{
+  font-size: 12px;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  box-shadow: none !important;
+  width: 65px;
+  margin-left: 3px;
+  background-color: red;
+  padding: 3px;
+  height: 35;
+}
+
+.Remove-Btn:hover{
+  background-color: rgb(235, 4, 4);
+  color: #fff;
+}
