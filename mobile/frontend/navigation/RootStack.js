@@ -36,25 +36,6 @@ import EditProfile from "../screens/profile/EditProfile";
 const Stack = createNativeStackNavigator();
 
 const RootStack = () => {
-  // const [initialRoute, setInitialRoute] = useState('WelcomeScreen'); // Default initial route
-
-  // useEffect(() => {
-  //   checkUserLoggedIn().then(isLoggedIn => {
-  //     setInitialRoute(isLoggedIn ? 'Home' : 'WelcomeScreen');
-  //   });
-  // }, []);
-
-  // const checkUserLoggedIn = async () => {
-  //     try
-  //     {
-  //       const user = await AsyncStorage.getItem('user');
-  //       return user != null;
-  //     }
-  //     catch (e) {
-  //       console.log(e);
-  //       return false;
-  //     }
-  // };
 
   const [initialRoute, setInitialRoute] = useState("WelcomeScreen"); // Default initial route
 

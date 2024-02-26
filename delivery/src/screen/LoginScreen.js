@@ -123,15 +123,11 @@ const LoginScreen = ({ navigation }) => {
       });
 
       const data = await response.json();
-      // console.log("Response from server:", data); 
 
       if (response.status === 200) {
          // Save token
         await AsyncStorage.setItem("token", JSON.stringify(data.token));
-        // console.log("Token stored in AsyncStorage:", data.token);
-        // console.log(JSON.stringify(data.driver))
         await AsyncStorage.setItem("driver", JSON.stringify(data.driver._id));
-        // await AsyncStorage.setItem('driverId', '123344555656667777');
 
         Alert.alert("Driver Login Successfully", "You have been logged in successfully");
         navigation.navigate("BottomTabNavigator", { screen: "ProcessOrder" });
@@ -231,7 +227,6 @@ const LoginScreen = ({ navigation }) => {
           <Text style={styles.signinButtonText}>Sign In</Text>
         )}
       </TouchableOpacity>
-
     </View>
   );
 };

@@ -18,7 +18,6 @@ import LoadingIndicator from '../constants/fonts/LoadingIndicator';
 
 const StartChoiceScreen = ({ navigation }) => {
 
-  const { width, height } = Dimensions.get('window');
 
   // FONT FAMILY LOADING LOGIC
   const fontsLoaded = useContext(FontContext);

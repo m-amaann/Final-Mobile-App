@@ -20,20 +20,20 @@ import Driver from "./components/screen/Driver";
 
 
 
-// const initialState = {
-//   user: JSON.parse(localStorage.getItem("user")),
-// };
+const initialState = {
+  user: JSON.parse(localStorage.getItem("user")),
+};
 
-// export const reducer = (state = initialState, action) => {
-//   switch (action.type) {
-//     case "LOGIN":
-//       return { ...state, user: action.payload };
-//     case "LOGOUT":
-//       return { ...state, user: null };
-//     default:
-//       return state;
-//   }
-// };
+export const reducer = (state = initialState, action) => {
+  switch (action.type) {
+    case "LOGIN":
+      return { ...state, user: action.payload };
+    case "LOGOUT":
+      return { ...state, user: null };
+    default:
+      return state;
+  }
+};
 
 const Routing = () => {
   const user = useSelector((state) => state.user);

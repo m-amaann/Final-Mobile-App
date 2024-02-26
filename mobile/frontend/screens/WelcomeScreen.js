@@ -21,7 +21,6 @@ import {
 
 const WelcomeScreen = ({ navigation }) => {
 
-  const { width, height } = Dimensions.get('window');
 
   // FONT FAMILY LOADING LOGIC
   const fontsLoaded = useContext(FontContext);

@@ -75,3 +75,6 @@ describe('RegisterScreen', () => {
     expect(mockNavigate).toHaveBeenCalledWith('Login');
   });
 });
+
+
+
