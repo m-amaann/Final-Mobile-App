@@ -43,48 +43,48 @@ const Routing = () => {
       <Route
         exact
         path="/"
-        element={user ? <Home /> : <Navigate to="/login" />}
+        element={ <Home /> }
       />
 
       <Route
         exact
         path="/Product"
-        element={user ? <Product/> : <Navigate to="/login" />}
+        element={<Product/> }
       />
       <Route
         exact
         path="/Category"
-        element={user ? <Category/> : <Navigate to="/login" />}
+        element={ <Category/> }
       />
       <Route
         exact
         path="/SubCategory"
-        element={user ? <SubCategory/> : <Navigate to="/login" />}
+        element={ <SubCategory/> }
       />
       <Route
         exact
         path="/Customers"
-        element={user ? <Customer/> : <Navigate to="/login" />}
+        element={<Customer/>}
       />
       <Route
         exact
         path="/Admin"
-        element={user ? <Admin/> : <Navigate to="/login" />}
+        element={<Admin/> }
       />
        <Route
         exact
         path="/Driver"
-        element={user ? <Driver/> : <Navigate to="/login" />}
+        element= {<Driver/> }
       />
       <Route
         exact
         path="/Settings"
-        element={user ? <Settings/> : <Navigate to="/login" />}
+        element={<Settings/> }
       />
             <Route
         exact
         path="/Orders"
-        element={user ? <Orders/> : <Navigate to="/login" />}
+        element={<Orders/> }
       />
       
       <Route exact path="/login" element={<Loginpage />} />
